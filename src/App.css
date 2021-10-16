@@ -1,7 +1,21 @@
 .expenses {
-  width: 65%;
+  width: 50rem;
+  max-width: 95%;
   margin: 1rem auto;
   align-items: center;
   padding: 0.8rem;
   background-color: #1b1b1b;
+}
+
+.No-expense-parent {
+  text-align: center;
+}
+
+.No-expense {
+  display: inline-block;
+  color: #000;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin: 12px 0;
+  border-radius: 12px;
 }
